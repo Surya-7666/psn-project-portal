@@ -52,7 +52,7 @@ export default function App() {
             <p className="text-[11px] sm:text-xs text-slate-500">
               Designed &amp; Developed by{' '}
               <span className="font-semibold text-emerald-900">
-                Surya Perumal Jeyapandi
+                Surya Perumal Jeyapandi &amp; Praveen V
               </span>{' '}
               <span className="text-slate-400">• IV-CSE</span>
             </p>
