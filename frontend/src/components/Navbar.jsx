@@ -33,7 +33,7 @@ export default function Navbar({ admin, setAdmin }) {
             PSNCET
             </p>
             <p className="sm:hidden text-[10px] font-medium text-slate-500 truncate">
-              Project Portal
+              PSNCET
             </p>
           </div>
         </Link>
