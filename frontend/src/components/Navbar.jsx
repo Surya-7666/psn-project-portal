@@ -10,7 +10,6 @@ export default function Navbar({ admin, setAdmin }) {
     setAdmin(null);
     navigate('/');
   };
-
   return (
     <header className="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200 shadow-xs">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-2">
@@ -31,7 +30,7 @@ export default function Navbar({ admin, setAdmin }) {
               </span>
             </div>
             <p className="hidden sm:block text-xs text-slate-500 truncate">
-              PSN Institute of Higher Education &amp; Research
+            PSNCET
             </p>
             <p className="sm:hidden text-[10px] font-medium text-slate-500 truncate">
               Project Portal
