@@ -51,9 +51,23 @@ export default function App() {
             </p>
             <p className="text-[11px] sm:text-xs text-slate-500">
               Designed &amp; Developed by{' '}
-              <span className="font-semibold text-emerald-900">
-                Surya Perumal Jeyapandi &amp; Praveen V
-              </span>{' '}
+              <a
+                href="https://www.suryasde.site/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-emerald-900 hover:text-emerald-700 hover:underline underline-offset-2 transition-colors"
+              >
+                Surya Perumal Jeyapandi
+              </a>
+              {' & '}
+              <a
+                href="https://www.linkedin.com/in/praveen-v-760v"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-emerald-900 hover:text-emerald-700 hover:underline underline-offset-2 transition-colors"
+              >
+                Praveen V
+              </a>{' '}
               <span className="text-slate-400">• IV-CSE</span>
             </p>
           </div>
